@@ -19,19 +19,19 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node muse.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PokemonLeader/muse.git"
+    "url": "git+https://github.com/discordbotmuse/muse"
   },
   "keywords": [
     "music"
   ],
-  "author": "PokemonLeader#1712",
+  "author": "PokemonLeader#8651",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PokemonLeader/muse/issues"
+    "url": "https://github.com/discordbotmuse/muse/issues"
   },
-  "homepage": "https://github.com/PokemonLeader/muse#readme"
+  "homepage": "https://github.com/discordbotmuse/muse#readme"
 }
