@@ -2,7 +2,12 @@ const { Client, Util } = require('discord.js');
 const Discord = require("discord.js");
 const config = require("./config.json");
 const { PREFIX } = config;
-const { TOKEN , GOOGLE_API_KEY , DBL_API } = require("./config.js")
+const configs = {
+	"TOKEN": process.env.TOKEN,
+	"GOOGLE_API_KEY": process.env.GOOGLE_API_KEY,
+	"DBL_API": process.env.DBL_API
+}
+const { TOKEN, GOOGLE_API_KEY, DBL_API } = configs;
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 const fs = require(`fs`);
