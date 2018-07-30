@@ -26,6 +26,8 @@ module.exports.run = async (client,msg,args,searchString,url,serverQueue,queue,y
 
     **${PREFIX}skip** | Skip and go to the next song.
 
+    **${PREFIX}volume <volume to set>** | To change the volume of the music
+
     **${PREFIX}pause** | To Pause The Song.
 
     **${PREFIX}resume** | To Resume The Song.
